@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Pre-commit hook: validate round-trip and regenerate dist/ whenever tokens
+# change, so a commit can never ship a stale or non-round-tripping palette.
+#
+# Install once with:  git config core.hooksPath tools/git-hooks
+set -euo pipefail
+
+root="$(git rev-parse --show-toplevel)"
+cd "$root"
+
+python3 tools/validate.py
+
+before="$(git status --porcelain -- dist)"
+python3 tools/build.py >/dev/null
+after="$(git status --porcelain -- dist)"
+
+if [[ "$before" != "$after" ]]; then
+    git add dist
+    echo "pre-commit: dist/ regenerated from tokens.json and staged."
+fi

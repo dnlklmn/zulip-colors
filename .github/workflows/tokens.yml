@@ -1,0 +1,36 @@
+name: tokens
+
+on:
+  push:
+    paths:
+      - tokens.json
+      - build.config.json
+      - tools/**
+      - dist/**
+      - .github/workflows/tokens.yml
+  pull_request:
+    paths:
+      - tokens.json
+      - build.config.json
+      - tools/**
+      - dist/**
+      - .github/workflows/tokens.yml
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate round-trip
+        run: python tools/validate.py
+      - name: Build outputs
+        run: python tools/build.py
+      - name: Fail if dist/ is stale
+        run: |
+          if ! git diff --exit-code -- dist; then
+            echo "::error::dist/ is out of date. Run 'python tools/build.py' and commit the result."
+            exit 1
+          fi
