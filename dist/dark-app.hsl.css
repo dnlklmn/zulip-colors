@@ -1,0 +1,13 @@
+/* AUTO-GENERATED from tokens.json by tools/build.py — do not edit by hand. (set: dark-app) */
+.dark-app {
+    --color-background-default: hsl(240deg 7% 11%); /* dark-app background.default ← neutral.100 */
+    --color-background-float: hsl(240deg 7% 17%); /* dark-app background.float ← neutral.150 */
+    --color-fill-default: hsl(240deg 7% 17%); /* dark-app fill.default ← neutral.150 */
+    --color-fill-float: hsl(240deg 7% 23%); /* dark-app fill.float ← neutral.200 */
+    --color-fill-match-background: hsl(240deg 7% 11%); /* dark-app fill.match-background ← background.default */
+    --color-fill-primary: hsl(240deg 100% 68.6%); /* dark-app fill.primary ← primary.700 */
+    --color-foreground-default: hsl(240deg 6% 90%); /* dark-app foreground.default ← neutral.925 */
+    --color-foreground-dim: hsl(240deg 7% 68%); /* dark-app foreground.dim ← neutral.700 */
+    --color-foreground-primary-dim: hsl(238deg 27% 71%); /* dark-app foreground.primary-dim ← primary-dim.700 */
+    --color-border-default: hsl(240deg 7% 32%); /* dark-app border.default ← neutral.300 */
+}

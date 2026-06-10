@@ -1,0 +1,36 @@
+/* AUTO-GENERATED from tokens.json by tools/build.py — do not edit by hand. */
+/* Email palette — light default = light-web, dark = dark-web. Hex only;
+   email clients support neither hsl() nor var(). */
+
+/*  role                       light      dark
+    background.default       #dddde9    #17172b
+    background.float         #f1f1f3    #272845
+    background.dip           #a1a2c9            -
+    fill.default             #28282e    #28282e
+    fill.float               #37373f    #37373f
+    fill.match-background    #dddde9    #17172b
+    fill.accent              #a1a2c9    #3a3b64
+    foreground.default       #0c0c0e    #e4e4e7
+    foreground.dim           #a8a8b3    #a8a8b3
+    foreground.primary-dim   #5f5fff    #b8b8ff
+    foreground.always-light  #e4e4e7    #e4e4e7
+    border.default           #4c4c57    #4c4c57
+    link.default             #5f5fff    #b8b8ff
+    link.hover               #2e2eff    #e5e5ff
+    button.background        #5f5fff    #5f5fff
+    button.background-hover  #2e2eff    #8a8aff
+    button.foreground        #e4e4e7    #e4e4e7
+*/
+
+/* Example generated rules (light = default rule set). */
+.body {
+    background-color: #dddde9; /* light-web background.default */
+    color: #0c0c0e; /* light-web foreground.default */
+}
+
+@media (prefers-color-scheme: dark) {
+    .body {
+        background-color: #17172b !important; /* dark-web background.default */
+        color: #e4e4e7 !important; /* dark-web foreground.default */
+    }
+}

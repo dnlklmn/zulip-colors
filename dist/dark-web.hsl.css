@@ -1,0 +1,19 @@
+/* AUTO-GENERATED from tokens.json by tools/build.py — do not edit by hand. (set: dark-web) */
+.dark-web {
+    --color-background-default: hsl(240deg 30% 13%); /* dark-web background.default ← primary-dim.100 */
+    --color-background-float: hsl(238deg 28% 21%); /* dark-web background.float ← primary-dim.200 */
+    --color-fill-default: hsl(240deg 7% 17%); /* dark-web fill.default ← neutral.150 */
+    --color-fill-float: hsl(240deg 7% 23%); /* dark-web fill.float ← neutral.200 */
+    --color-fill-match-background: hsl(240deg 30% 13%); /* dark-web fill.match-background ← background.default */
+    --color-fill-accent: hsl(238.6deg 26.6% 31%); /* dark-web fill.accent ← primary-dim.300 */
+    --color-foreground-default: hsl(240deg 6% 90%); /* dark-web foreground.default ← neutral.925 */
+    --color-foreground-dim: hsl(240deg 7% 68%); /* dark-web foreground.dim ← neutral.700 */
+    --color-foreground-primary-dim: hsl(240deg 100% 86%); /* dark-web foreground.primary-dim ← primary.900 */
+    --color-foreground-always-light: hsl(240deg 6% 90%); /* dark-web foreground.always-light ← neutral.925 */
+    --color-border-default: hsl(240deg 7% 32%); /* dark-web border.default ← neutral.300 */
+    --color-link-default: hsl(240deg 100% 86%); /* dark-web link.default ← primary.900 */
+    --color-link-hover: hsl(240deg 100% 95%); /* dark-web link.hover ← primary.950 */
+    --color-button-background: hsl(240deg 100% 68.6%); /* dark-web button.background ← primary.700 */
+    --color-button-background-hover: hsl(240deg 100% 77%); /* dark-web button.background-hover ← primary.800 */
+    --color-button-foreground: hsl(240deg 6% 90%); /* dark-web button.foreground ← foreground.always-light */
+}

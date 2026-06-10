@@ -1,0 +1,18 @@
+{
+  "background.default": "#17172b",
+  "background.float": "#272845",
+  "fill.default": "#28282e",
+  "fill.float": "#37373f",
+  "fill.match-background": "#17172b",
+  "fill.accent": "#3a3b64",
+  "foreground.default": "#e4e4e7",
+  "foreground.dim": "#a8a8b3",
+  "foreground.primary-dim": "#b8b8ff",
+  "foreground.always-light": "#e4e4e7",
+  "border.default": "#4c4c57",
+  "link.default": "#b8b8ff",
+  "link.hover": "#e5e5ff",
+  "button.background": "#5f5fff",
+  "button.background-hover": "#8a8aff",
+  "button.foreground": "#e4e4e7"
+}

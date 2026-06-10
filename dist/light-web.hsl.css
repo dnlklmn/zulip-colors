@@ -1,0 +1,20 @@
+/* AUTO-GENERATED from tokens.json by tools/build.py — do not edit by hand. (set: light-web) */
+.light-web {
+    --color-background-default: hsl(240deg 21% 89%); /* light-web background.default ← primary-dim.900 */
+    --color-background-float: hsl(240deg 8% 95%); /* light-web background.float ← primary-dim.950 */
+    --color-background-dip: hsl(238deg 27% 71%); /* light-web background.dip ← primary-dim.700 */
+    --color-fill-default: hsl(240deg 7% 17%); /* light-web fill.default ← neutral.150 */
+    --color-fill-float: hsl(240deg 7% 23%); /* light-web fill.float ← neutral.200 */
+    --color-fill-match-background: hsl(240deg 21% 89%); /* light-web fill.match-background ← background.default */
+    --color-fill-accent: hsl(238deg 27% 71%); /* light-web fill.accent ← primary-dim.700 */
+    --color-foreground-default: hsl(240deg 8% 5%); /* light-web foreground.default ← neutral.50 */
+    --color-foreground-dim: hsl(240deg 7% 68%); /* light-web foreground.dim ← neutral.700 */
+    --color-foreground-primary-dim: hsl(240deg 100% 68.6%); /* light-web foreground.primary-dim ← primary.700 */
+    --color-foreground-always-light: hsl(240deg 6% 90%); /* light-web foreground.always-light ← neutral.925 */
+    --color-border-default: hsl(240deg 7% 32%); /* light-web border.default ← neutral.300 */
+    --color-link-default: hsl(240deg 100% 68.6%); /* light-web link.default ← primary.700 */
+    --color-link-hover: hsl(240deg 100% 59%); /* light-web link.hover ← primary.600 */
+    --color-button-background: hsl(240deg 100% 68.6%); /* light-web button.background ← primary.700 */
+    --color-button-background-hover: hsl(240deg 100% 59%); /* light-web button.background-hover ← primary.600 */
+    --color-button-foreground: hsl(240deg 6% 90%); /* light-web button.foreground ← foreground.always-light */
+}

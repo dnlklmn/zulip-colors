@@ -1,0 +1,38 @@
+{
+  "globalSet": "global",
+  "outputDir": "dist",
+  "css": {
+    "defaultPrefix": "--color-",
+    "sets": {
+      "dark-app": { "selector": ".dark-app" },
+      "dark-web": { "selector": ".dark-web" },
+      "light-web": { "selector": ".light-web" }
+    }
+  },
+  "email": {
+    "light": "light-web",
+    "dark": "dark-web",
+    "rules": [
+      {
+        "selector": ".body",
+        "properties": {
+          "background-color": "background.default",
+          "color": "foreground.default"
+        }
+      }
+    ]
+  },
+  "consumers": [
+    {
+      "file": "templates/zerver/emails/email.css",
+      "sets": ["light-web", "dark-web"],
+      "ignore": []
+    },
+    {
+      "file": "web/styles/portico/legacy_portico.css",
+      "sets": ["dark-web"],
+      "include": "--error-page",
+      "ignore": []
+    }
+  ]
+}

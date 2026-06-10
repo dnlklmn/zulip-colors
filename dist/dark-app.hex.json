@@ -1,0 +1,12 @@
+{
+  "background.default": "#1a1a1e",
+  "background.float": "#28282e",
+  "fill.default": "#28282e",
+  "fill.float": "#37373f",
+  "fill.match-background": "#1a1a1e",
+  "fill.primary": "#5f5fff",
+  "foreground.default": "#e4e4e7",
+  "foreground.dim": "#a8a8b3",
+  "foreground.primary-dim": "#a1a2c9",
+  "border.default": "#4c4c57"
+}
