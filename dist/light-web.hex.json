@@ -13,6 +13,8 @@
   "border.default": "#4c4c57",
   "link.default": "#5f5fff",
   "link.hover": "#2e2eff",
+  "link.muted.default": "#5f5ec7",
+  "link.muted.hover": "#434388",
   "button.background": "#5f5fff",
   "button.background-hover": "#2e2eff",
   "button.foreground": "#e4e4e7"

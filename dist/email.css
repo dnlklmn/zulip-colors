@@ -17,6 +17,8 @@
     border.default           #4c4c57    #4c4c57
     link.default             #5f5fff    #b8b8ff
     link.hover               #2e2eff    #e5e5ff
+    link.muted.default       #5f5ec7            -
+    link.muted.hover         #434388            -
     button.background        #5f5fff    #5f5fff
     button.background-hover  #2e2eff    #8a8aff
     button.foreground        #e4e4e7    #e4e4e7

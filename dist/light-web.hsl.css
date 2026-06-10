@@ -14,6 +14,8 @@
     --color-border-default: hsl(240deg 7% 32%); /* light-web border.default ← neutral.300 */
     --color-link-default: hsl(240deg 100% 68.6%); /* light-web link.default ← primary.700 */
     --color-link-hover: hsl(240deg 100% 59%); /* light-web link.hover ← primary.600 */
+    --color-link-muted-default: hsl(240.6deg 48.4% 57.5%); /* light-web link.muted.default ← literal */
+    --color-link-muted-hover: hsl(240deg 34% 39.8%); /* light-web link.muted.hover ← literal */
     --color-button-background: hsl(240deg 100% 68.6%); /* light-web button.background ← primary.700 */
     --color-button-background-hover: hsl(240deg 100% 59%); /* light-web button.background-hover ← primary.600 */
     --color-button-foreground: hsl(240deg 6% 90%); /* light-web button.foreground ← foreground.always-light */
